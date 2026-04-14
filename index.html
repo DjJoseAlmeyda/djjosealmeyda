@@ -257,6 +257,29 @@
             .contenido-protocolo { grid-template-columns: 1fr; gap: 20px; }
             .rejilla-paquetes { grid-template-columns: 1fr; gap: 20px; }
         }
+
+        .boton-red-social {
+    background: var(--tarjeta);
+    border: 1px solid #1a1a1a;
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    transition: all 0.4s ease;
+    min-width: 180px;
+    display: inline-block;
+}
+
+.boton-red-social:hover {
+    border-color: var(--dorado);
+    color: var(--dorado);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px var(--dorado-glow);
+    background: #111;
+}
     </style>
 </head>
 <body>
@@ -419,6 +442,20 @@
         </div>
     </div>
 
+<section style="margin-top: 80px; text-align: center;">
+    <h2 style="text-transform: uppercase; letter-spacing: 6px; margin-bottom: 30px; font-size: 1.2rem; border-bottom: 1px solid var(--dorado); display: inline-block; padding-bottom: 10px;">
+        MIS REDES SOCIALES
+    </h2>
+    
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+        <a href="https://www.instagram.com/jose.almeyda27/" target="_blank" class="boton-red-social">Instagram</a>
+        
+        <a href="https://www.tiktok.com/@josealmeyda" target="_blank" class="boton-red-social">TikTok</a>
+        
+        <a href="https://www.youtube.com/@djjosealmeyda" target="_blank" class="boton-red-social">YouTube</a>
+    </div>
+</section>
+    
     <footer>
         <p class="frase-cierre">"Que tu noche sea Mágica"</p>
     </footer>
@@ -437,6 +474,8 @@
         }
     }
 </script>
+
+
 
 </body>
 </html>
