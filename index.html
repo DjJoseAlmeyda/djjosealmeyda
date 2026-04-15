@@ -248,7 +248,17 @@
             margin-bottom: 10px;
             letter-spacing: 1px;
         }
+       /* Agrega espacio entre cada bloque de texto */
+        .item-protocolo p {
+            margin-bottom: 25px; 
+            line-height: 1.8;
+        }
 
+        /* Quita el espacio al último para que no sobre */
+        .item-protocolo p:last-child {
+            margin-bottom: 0;
+        }
+        
         .social-container {
             display: flex;
             justify-content: center;
@@ -433,7 +443,7 @@
         </div>
     </section>
 
-    <div class="acordeon-protocolo">
+<div class="acordeon-protocolo">
         <button class="acordeon-titulo" onclick="toggleProtocolo()">
             PROTOCOLO DE SERVICIO <span>+</span>
         </button>
@@ -446,10 +456,10 @@
                     <p><strong>REQUERIMIENTOS DE INSTALACIÓN:</strong> El cliente garantizará un espacio seguro que incluya una mesa firme, conexión eléctrica independiente y protección obligatoria contra el clima (toldo o techo) en caso el evento se realice en un ambiente abierto.</p>
                 </div>
                 <div class="item-protocolo">
-                    <p><strong>REQUERIMIENTOS MUSICALES:</strong> Para garantizar una experiencia a medida, se solicita al cliente compartir sus temas favoritos, grupos o géneros de referencia con antelación. Esto servirá como guía para que el DJ alinee la programación musical con los gustos de los anfitriones.</p>
+                    <p><strong>REQUERIMIENTOS MUSICALES:</strong> Para garantizar una experiencia a medida, se solicita al cliente compartir sus temas favoritos, grupos o géneros de referencia con antelación.</p>
                     <p><strong>CONTINUIDAD:</strong> El tiempo de contrato corre de forma ininterrumpida. La intervención de otros espectáculos no pausa el tiempo de servicio.</p>
                     <p><strong>HORAS EXTRAS:</strong> Las horas extras se deben comunicar con 30 minutos antes de finalizar el contrato original, y este tiene un costo adicional por hora.</p>
-                    <p><strong>RESPONSABILIDAD CIVIL:</strong> El cliente asume la responsabilidad total por la integridad física de los equipos durante el evento. Esto incluye daños causados por terceros (invitados).   </p>
+                    <p><strong>RESPONSABILIDAD CIVIL:</strong> El cliente asume la responsabilidad total por la integridad física de los equipos durante el evento. Esto incluye daños causados por terceros (invitados).</p>
                 </div>
             </div>
         </div>
