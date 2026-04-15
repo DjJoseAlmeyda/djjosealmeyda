@@ -34,16 +34,16 @@
 
         header {
             text-align: center;
-            padding: 60px 0 40px; /* Ajustado para dar espacio al logo más grande */
+            padding: -10px 0 30px; /* Reducido para acercar el contenido al tope */
             position: relative;
         }
 
-        /* --- LOGO MÁS GRANDE --- */
+        /* --- LOGO MÁS CERCANO AL NOMBRE --- */
         .logo-dj {
-            width: 180px; /* Aumentado de 120px a 180px */
+            width: 180px;
             height: auto;
             filter: drop-shadow(0 0 20px rgba(197, 160, 89, 0.5));
-            margin-bottom: 20px;
+            margin-bottom: -110px; /* Reducido de 20px a 5px para acercarlo al texto */
             transition: transform 0.5s ease, filter 0.5s ease;
         }
 
@@ -61,7 +61,7 @@
             background: linear-gradient(to bottom, #ffffff 0%, #c5a059 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
+            margin-bottom: 5px; /* Ajuste sutil también aquí */
         }
 
         .eslogan-principal {
@@ -255,6 +255,7 @@
             gap: 15px;
             flex-wrap: wrap;
         }
+
     </style>
 </head>
 <body>
@@ -263,7 +264,7 @@
     <header>
         <img src="logo.josealmeyda.png" alt="Logo DJ Jose Almeyda" class="logo-dj">
         <h1 class="nombre-marca">DJ JOSE ALMEYDA</h1>
-        <span class="eslogan-principal">MI PRIORIDAD SERÁ TU DIVERSIÓN Y LA TUYA SERÁ DISFRUTAR</span>
+        <span class="eslogan-principal">MI PRIORIDAD SERÁ TU DIVERSIÓN Y LA TUYA SOLO DISFRUTAR</span>
     </header>
 
     <div class="presentacion">
@@ -413,7 +414,6 @@
             </div>
         </div>
     </div>
-
     
     <footer>
         <p class="frase-cierre">"Que tu noche sea Mágica"</p>
